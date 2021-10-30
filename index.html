@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cours</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Link css -->
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <!-- Link JavaScript -->
+    <script src='main.js'></script>
+    <script src="alert.js"></script>
+    <script src="combinations.js"></script>
+</head>
+<body>
+<!-- Section Header -->
+ <header>
+   <ul class="navbar">
+     <li class="nav"><a href="home.html">Home</a></li>
+     <li class="nav"><a href="About.html">About Us</a></li>
+     <li class="nav"><a href="profile.html">Porfile</a></li>
+     <li class="nav"><a href="contact.html">Contact</a></li>
+   </ul>
+ </header>
+ <!-- End Section Header -->
+ <!-- Section Body -->
+ <section>
+   <div class="float-left">
+     <p>Voltaire, a French philosopher and historian who died shortly after the American revolutionary war, left us with this warning about translations: "Woe to the makers of literal translations, who by rendering every word weaken the meaning! It is indeed by so doing that we can say the letter kills and the spirit gives life." In spite of his warnings, we bring you four translations of the phrase "Hello World".</p>
+   </div>
+   <table>
+     <thead>
+       <th ><span class="language"> Language</span></th>
+       <th id="aloha">Translation</th>
+     </thead>
+     <tbody>
+       <tr>
+         <td>Luxembourgish</td>
+         <td>Moien Welt</td>
+       </tr>
+       <tr>
+         <td>Luxembourgish</td>
+         <td>Moien Welt</td>
+       </tr>
+       <tr>
+         <td>Luxembourgish</td>
+         <td>Moien Welt</td>
+       </tr>
+       <tr>
+         <td>Luxembourgish</td>
+         <td>Moien Welt</td>
+       </tr>
+     </tbody>
+   </table>
+   <h2><a href="https://en.wikipedia.org/wiki/Swahili_language">Swahili</a></h2>
+   <p>For additional translations, visit <a href="https://www.bing.com/translator">Bing Translator</a>.</p>
+   <p id="time"></p>
+   <p id="game"></p>
+   <!-- Button Alerte Message -->
+   <button onclick="Alert();">Show Alert</button>
+   <!-- Button Game -->
+   <button onclick="game();">Play Game</button>
+   
+ </section>
+ <!-- End Section Body -->
+ <!-- Script -->
+ <script>
+   document.getElementById("time").innerHTML=new Date().toLocaleDateString();
+   // display on Console Browser
+   console.log("Welcome to JavaScript");
+   // display on Browser
+         // methode 1 
+   document.getElementById("game").innerHTML=combinations("dog");
+         // methode 2 
+   //document.write(combinations("dog"));
+
+   // Function to Capitalize First Letter
+   function capitalize(string) {  
+     return string.split(' ').map(string => string.charAt(0).toUpperCase() + string.substring(1)).join(' '); 
+   }
+   // display on Console Browser
+   console.log(capitalize("hi my name is abderrahman soufiane"));
+ </script>
+ <!-- End Script -->
+</body>
+</html>
