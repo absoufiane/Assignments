@@ -1,0 +1,25 @@
+img{
+    float: left;
+    width: 20%;
+    height: 20%;
+}
+.card-body{
+    margin-left: 40px;
+}
+table, td {
+    border: 1px solid #fff3e3;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+    text-align: left;
+    border: 2px solid #fff3e3;
+    font-size: 36px;
+    font-weight: lighter;
+}
+th :nth-child(3n+3){
+    color: red;
+}
+td a:hover{
+    font-size: 55px;
+}
