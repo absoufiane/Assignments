@@ -31,14 +31,10 @@ th{
     font-size: 36px;
     font-weight: lighter;
 }
-
-
 .language{
     background: purple;
     font-weight: bold;   
 }
-
-
 #aloha{
     letter-spacing: 8px;
     font-variant : small-caps;
@@ -63,7 +59,6 @@ div p{
 div .float-left {
     float: left;
 }
-
 button{
     background-color: #4CAF50;
     color: white;
