@@ -9,6 +9,9 @@
       return string.split(' ').map(string => string.charAt(0).toUpperCase() + string.substring(1)).join(' '); 
     }
 
+    // display on Console the Browser
+    console.log(capitalize("hi my name is abderrahman soufiane"));
+
     // Function the game 
     function game(){
         var num = parseInt(Math.random() * 10 + 1);
@@ -24,11 +27,6 @@
             }
         }
     }
-    // Display on Browser
-          // methode 1 
-          document.getElementById("game").innerHTML=combinations("dog");
-          // Methode 2 
-    //document.write(combinations("dog"));
 
     // Function Alert Message
     function Alert(){
@@ -45,5 +43,8 @@
         }
         return list;
     }
-    // display on Console the Browser
-    console.log(capitalize("hi my name is abderrahman soufiane"));
+    // Display on Browser
+          // methode 1 
+          document.getElementById("game").innerHTML=combinations("dog");
+          // Methode 2 
+    //document.write(combinations("dog"));
